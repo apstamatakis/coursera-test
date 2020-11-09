@@ -17,6 +17,8 @@ p {
 .titlebox1 {
     position: relative;
     float: right;
+    right: -1px;
+    top: -1px;
     background-color: #ff8b8b;
     padding-left: 30px;
     padding-right: 30px;
@@ -29,6 +31,8 @@ p {
 .titlebox2 {
     position: relative;
     float: right;
+    right: -1px;
+    top: -1px;
     background-color: #e40000;
     padding-left: 30px;
     padding-right: 30px;
@@ -42,6 +46,8 @@ p {
 .titlebox3 {
     position: relative;
     float: right;
+    right: -1px;
+    top: -1px;
     background-color: #f0df47;
     padding-left: 30px;
     padding-right: 30px;
