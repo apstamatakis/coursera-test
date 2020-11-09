@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+    font-family: Helvetica;
+}
+
+p {
+
+    padding: 20px 10px 0px 10px;
+    font-family: Helvetica;
+}
+
+.titlebox1 {
+    position: relative;
+    float: right;
+    background-color: #ff8b8b;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    height: auto;
+    font-family: Helvetica;
+    font-size: 125%;
+}
+
+.titlebox2 {
+    position: relative;
+    float: right;
+    background-color: #e40000;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    height: auto;
+    font-family: Helvetica;
+    color: white;
+    font-size: 125%;
+}
+
+.titlebox3 {
+    position: relative;
+    float: right;
+    background-color: #f0df47;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgb(0, 0, 0);
+    height: auto;
+    font-family: Helvetica;
+    font-size: 125%;
+}
+
+.box {
+    width: 100%;
+    width: auto;
+    background-color: #888888;
+    border: 1px solid rgb(0, 0, 0);
+    height: auto;
+    color: black;
+    margin: 10px;
+}
+
+/* Simple Responsive Framework. */
+.row {
+    width: 100%;
+}
+
+@media (min-width: 992px) {
+
+    .col-lg {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md {
+        float: left;
+        width: 50%;
+    }
+
+    .fullwith {
+        width: 100%;
+        margin-top: 5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm {
+        float: left;
+        width: 100%;
+
+    }
+}
