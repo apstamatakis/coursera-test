@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+#header-nav {
+    background-color: #6f85ff;
+    border-radius: 0;
+    border: 0;    
+    border: solid rgb(0, 0, 0) 1px;
+    margin-bottom: 0;
+}
+
+.navbar-brand {       
+    padding-left: 0;  
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+
+.navbar-brand h1 {    
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: black;   
+    margin-top: 0;
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.text-center {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 38px;
+    font-weight: bold;
+    position: relative;
+    margin-top: 55px;
+}
+
+#text {       
+    margin: 10px;
+    background-color: #004f6e;
+    color: #fff;
+    font-family: "Times New Roman", Times, serif;;   
+    position: relative;
+}
+
+
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    text-align: center;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 100;
+    background-color: #6f85ff;
+}
+
+#nav-list a:hover {
+    background-color: #42a897;   
+}
+
+.navbar-default .navbar-collapse {
+	margin-top:0px;
+	border: 0px;
+	list-style-type: none;
+}  
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.back-to-top {
+    color: #fff;
+}  
+
+a:hover {
+    color: rgb(226, 226, 226);
+}
